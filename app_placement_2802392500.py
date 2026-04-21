@@ -3,8 +3,8 @@ import joblib
 import pandas as pd
 
 # Load the machine learning model and encode
-model_class = joblib.load('artifacts/placement_prediction_pipeline.pkl')
-model_reg = joblib.load('artifacts/salary_regression_pipeline.pkl')
+model_class = joblib.load('placement_prediction_pipeline.pkl')
+model_reg = joblib.load('salary_regression_pipeline.pkl')
 
 
 def main():
