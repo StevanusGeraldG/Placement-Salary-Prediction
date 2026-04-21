@@ -10,7 +10,7 @@ model_reg = joblib.load('salary_regression_pipeline.pkl')
 def main():
     st.set_page_config(page_title="Placement & Salary Predictor", layout="wide")
     st.title('Placement and Salary Prediction Model Deployment')
-    st.caption("Stevanus Gerald Marconus - 2802392500")
+    st.write("Stevanus Gerald Marconus - 2802392500")
 
     with st.sidebar:
         st.header("Input Guide")
