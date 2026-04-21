@@ -9,6 +9,7 @@ model_reg = joblib.load('salary_regression_pipeline.pkl')
 
 def main():
     st.title('Placement and Salary Prediction Model Deployment')
+    st.write("Stevanus Gerald Marconus - 2802392500")
 
     #input one by one
     gender = st.selectbox("Gender", ["Female", "Male"])
